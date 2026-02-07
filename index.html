@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arvind | Personal Website</title>
+    <meta
+      name="description"
+      content="Personal website with selected projects, writing, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-blur"></div>
+    <div class="bg-grid"></div>
+
+    <header class="site-header">
+      <div class="logo">A.</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="ghost" id="themeToggle" type="button" aria-label="Toggle theme">
+        Shift
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm Arvind</p>
+          <h1>
+            I design and build
+            <span>calm, intentional</span>
+            digital experiences.
+          </h1>
+          <p class="lead">
+            Product-focused engineer who blends craft, clarity, and velocity. I care about the
+            details that make software feel effortless.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="#work">View projects</a>
+            <a class="secondary" href="#contact">Let’s collaborate</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <h3>8+</h3>
+              <p>Years building web products</p>
+            </div>
+            <div>
+              <h3>20+</h3>
+              <p>Shipped launches</p>
+            </div>
+            <div>
+              <h3>3</h3>
+              <p>Teams led</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-top">
+            <p>Currently</p>
+            <h2>Head of Product Engineering</h2>
+          </div>
+          <div class="card-body">
+            <p>
+              Building internal tools, design systems, and customer-facing platforms.
+              Interested in thoughtful AI, applied research, and durable UX.
+            </p>
+            <div class="pill-row">
+              <span>Systems</span>
+              <span>Front-end</span>
+              <span>Platform</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <p>Based in San Francisco</p>
+            <a href="#contact">Say hello</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-title">
+          <p class="eyebrow">About</p>
+          <h2>Curious, practical, and obsessed with craft.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I love turning complex problems into calm, intuitive experiences. My work sits at the
+            intersection of product strategy, engineering, and design. I’m happiest when I’m
+            prototyping fast, shipping with intention, and collaborating with teams who care about
+            the details.
+          </p>
+          <ul>
+            <li>Product engineering and design systems</li>
+            <li>AI-enabled workflows for teams</li>
+            <li>Performance, accessibility, and storytelling</li>
+            <li>Mentoring and building creative cultures</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-title">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Recent projects with measurable impact.</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div>
+              <h3>Signal UI System</h3>
+              <p>
+                Built a cohesive design system used across 6 product lines, cutting UI build time by
+                40%.
+              </p>
+            </div>
+            <span class="tag">Design System</span>
+          </article>
+          <article class="card">
+            <div>
+              <h3>Atlas Insights</h3>
+              <p>
+                Launched a real-time analytics dashboard with ML-driven summaries and proactive
+                alerts.
+              </p>
+            </div>
+            <span class="tag">Product</span>
+          </article>
+          <article class="card">
+            <div>
+              <h3>Onboarding Studio</h3>
+              <p>
+                Redesigned activation flows, improving trial-to-paid conversion by 18% over two
+                quarters.
+              </p>
+            </div>
+            <span class="tag">Growth</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="writing">
+        <div class="section-title">
+          <p class="eyebrow">Writing</p>
+          <h2>Notes on product, systems, and collaboration.</h2>
+        </div>
+        <div class="writing">
+          <a class="writing-item" href="#">
+            <div>
+              <p class="writing-date">Jan 14</p>
+              <h3>Designing teams for velocity without chaos</h3>
+            </div>
+            <span>Read</span>
+          </a>
+          <a class="writing-item" href="#">
+            <div>
+              <p class="writing-date">Nov 22</p>
+              <h3>When AI becomes part of the UX</h3>
+            </div>
+            <span>Read</span>
+          </a>
+          <a class="writing-item" href="#">
+            <div>
+              <p class="writing-date">Sep 02</p>
+              <h3>Shipping design systems at startup speed</h3>
+            </div>
+            <span>Read</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something calm and bold.</h2>
+            <p>
+              Email me at <a href="mailto:hello@arvind.studio">hello@arvind.studio</a>
+              or find me on <a href="#">LinkedIn</a> and <a href="#">GitHub</a>.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="primary" href="mailto:hello@arvind.studio">Start a project</a>
+            <a class="secondary" href="#top">Back to top</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Arvind. Built with care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
