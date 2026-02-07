@@ -351,6 +351,48 @@ main {
   text-transform: uppercase;
 }
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.photo-card {
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.photo-placeholder {
+  height: 220px;
+  border-radius: 18px;
+  background: linear-gradient(135deg,
+      color-mix(in srgb, var(--accent) 35%, var(--bg)),
+      color-mix(in srgb, var(--accent-2) 25%, var(--card)));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  height: auto;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.photo-card figcaption {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.photo-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .contact-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -362,7 +404,7 @@ main {
   border: 1px solid var(--border);
 }
 
-.contact-card a {
+.contact-card p a {
   color: var(--text);
   text-decoration: underline;
 }
