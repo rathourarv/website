@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blogs | Arvind Singh</title>
+  <meta name="description" content="Latest Medium posts by Arvind Singh." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/png" href="photos/brand.png" />
+  <link rel="stylesheet" href="styles.css?v=9" />
+</head>
+
+<body>
+  <div class="bg-blur"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <button
+      class="logo menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="siteNav"
+      aria-label="Toggle navigation"
+    >
+      <img src="photos/brand.png" alt="Arvind Singh logo" class="logo-mark" />
+    </button>
+    <nav class="nav" id="siteNav">
+      <button class="nav-close" type="button" aria-label="Close navigation">×</button>
+      <a href="index.html#about">About</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#writing">Writing</a>
+      <a href="index.html#blog">Blog</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="personal.html">Personal</a>
+    </nav>
+    <a class="ghost" href="index.html">Back</a>
+  </header>
+
+  <main>
+    <section class="section" id="blogs">
+      <div class="section-title">
+        <p class="eyebrow">Medium</p>
+        <h2>Recent posts and previews.</h2>
+      </div>
+      <div class="cards medium-list" data-medium-list data-limit="12">
+        <article class="card medium-loading">
+          <div>
+            <h3>Loading Medium posts...</h3>
+            <p>Fetching articles from medium.com/@rathourarvi.</p>
+          </div>
+          <span class="tag">Blog</span>
+        </article>
+      </div>
+      <a class="secondary medium-cta" href="https://medium.com/@rathourarvi" target="_blank" rel="noreferrer noopener">Open Medium profile</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="photos/brand.png" alt="Arvind Singh brand mark" class="brand-mark" />
+      <p>TM</p>
+    </div>
+    <p>© 2026 Arvind Singh. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
